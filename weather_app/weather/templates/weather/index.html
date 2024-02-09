@@ -77,8 +77,8 @@
                             </table>
 
                             <p>Coordinate: {{ coordinate }}</p>
-                            {% elif not_found %}
-                            <h2 >{{ not_found }}</h2>
+                            {% elif blank %}
+                            <p>{{ blank }}</p>
                             {% endif %}
                         </div>
 

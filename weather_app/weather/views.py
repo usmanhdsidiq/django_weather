@@ -29,7 +29,7 @@ def index(request):
         print(data)
     else:
         data = {
-            "not_found": "OOps, the city have you entered was not found",
+            "blank": "Please enter the city then click 'Search' button",
         }
         print(data)
 
